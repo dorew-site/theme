@@ -1,0 +1,319 @@
+:root {
+  --border-m: 2px;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: "Quicksand", sans-serif;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  border: 1px solid #dae4f2;
+  max-width: 400px;
+}
+img {max-width: 100%}
+p {margin: 2px !important}
+
+a:link {color: #006496 !important}
+a:visited {color: #006496 !important}
+a:hover, a:active {color: #008a96 !important}
+
+textarea {
+  max-width: 98%;
+  color: #777;
+  border: 1px solid #ccc;
+  margin: 0px;
+  padding: 3px;
+  min-width: 90%;
+  min-height: 30px;
+  margin: 3px;
+}
+
+.container {
+  border: 1px solid #e6e6fa;
+  box-shadow: 0 0 7px 7px #ccd7db;
+}
+.container,
+.container-fluid {
+  background: #fff !important;
+  padding: 1px !important;
+}
+
+.img_item {margin: 2px 0 !important}
+.page-item, .page-link {margin: 0 1px !important}
+.phdr {background-color: RGBA(59, 113, 202)}
+.phdr_featured {background-color: #eba000}
+.phdr_notification {background-color: #009c68}
+
+.phdr,
+.phdr_featured,
+.phdr_notification {
+  color: #fff;
+  font-weight: bold;
+  font-size: 110%;
+  padding: 6px;
+  margin-top: 4px;
+  border-bottom: 2px solid #cc3535;
+  text-transform: uppercase;
+}
+
+.menu {
+  background-image: url("../images/tmn.jpg");
+  background-repeat: repeat-x;
+  background-position: 50% top;
+  border: var(--border-m) solid #e1e1e1;
+}
+
+.menu2 {
+  background-image: url("../images/tmn.jpg");
+  background-repeat: repeat-x;
+  background-position: 50% top;
+  margin: 0 !important;
+  border-left: var(--border-m) solid #e1e1e1;
+  border-right: var(--border-m) solid #e1e1e1;
+  border-bottom: var(--border-m) solid #e1e1e1;
+}
+
+.list1 {
+  border: var(--border-m) solid #e1e1e1;
+}
+
+.list2 {
+  margin: 0 !important;
+  border-left: var(--border-m) solid #e1e1e1;
+  border-right: var(--border-m) solid #e1e1e1;
+  border-bottom: var(--border-m) solid #e1e1e1;
+}
+
+.d_list {
+  font-weight: bold;
+  padding: 4px;
+  margin: 4px 0px;
+  border-bottom: var(--border-m) dotted #8a8a8a;
+}
+
+.gwmenu {
+  background-color: #f8f8ff;
+  color: #000;
+  border: var(--border-m) solid #e6e6fa;
+}
+
+.gmenu {
+  background-color: #f0fff0;
+  color: #000;
+  border: var(--border-m) solid #e0eeee;
+}
+
+.bmenu {
+  background-color: #c6e2ff;
+  color: #000;
+  border: var(--border-m) solid #b9d3ee;
+}
+
+.rmenu {
+  background-color: #fff0f5;
+  color: #000;
+  border: var(--border-m) solid #eee0e5;
+}
+
+.omenu {
+  background-color: #ffcc99;
+  color: #000;
+  border: var(--border-m) solid #ecab53;
+}
+
+.menu,
+.menu2,
+.list1,
+.list2,
+.gwmenu,
+.gmenu,
+.bmenu,
+.rmenu,
+.omenu,
+.list_download {
+  margin: 1px 0;
+  padding: 5px;
+}
+
+.phdr_download {
+  background-color: #c94f4f;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 6px;
+  margin-top: 4px;
+  border-bottom: 2px solid RGBA(59, 113, 202);
+}
+
+.list_download {
+  background-image: url("../images/tmn.jpg");
+  background-repeat: repeat-x;
+  background-position: 50% top;
+  color: #eb0000 !important;
+  font-weight: bold;
+  border: var(--border-m) solid #e1e1e1;
+}
+.list_download a:link,
+.list_download a:visited {
+  color: #eb0000 !important;
+}
+.list_download a:hover,
+.list_download a:active {
+  background: url("../images/butterfly-violet.gif") 100% no-repeat;
+  color: #c43939 !important;
+}
+
+.box {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+.box_title {
+  background-color: RGBA(59, 113, 202);
+  color: #fff;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border-bottom: 2px solid #cc3535;
+  word-wrap: break-word;
+}
+.box_content {
+  font-color: #000 !important;
+  font-size: 0.95em;
+  word-wrap: break-word;
+  border: var(--border-m) solid #e1e1e1;
+  padding: 5px;
+}
+.box_content p {
+  padding: 0 !important;
+}
+.box_content img {
+  max-width: 90% !important;
+}
+.box_source,
+.box_tags {
+  background-color: #fafdff;
+  margin: 1px 0;
+  padding: 5px;
+  border: var(--border-m) solid #dfe8eb;
+}
+.box_source {
+  font-size: 88%;
+  font-style: italic !important;
+}
+.box_source:before {
+  content: "\BB\A0";
+}
+.box_tags {
+  font-size: 80% !important;
+}
+.box_tags:before {
+  content: "\2688\A0TAGS\3A\A0";
+  color: #e06060;
+  font-weight: bold;
+}
+.box_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_ads {
+  background-color: #f8f8ff;
+  color: #000;
+  font-size: 0.9em;
+  border: var(--border-m) solid #e6e6fa;
+  margin: 1px 0;
+  padding: 5px;
+}
+
+.paging {
+  background-color: #c6e2ff;
+  border: var(--border-m) solid #b9d3ee;
+  margin: 1px 0;
+  padding: 5px;
+  text-align: center;
+  display: d-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: RGBA(59, 113, 202);
+  color: #f0f8ff;
+  min-height: 79px;
+  padding: 10px;
+  margin-top: 1px;
+  text-align: center;
+  border-top: 2px solid #cc3535;
+  box-shadow: 0px -1px 50px 10px #114f8c inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: RGBA(59, 113, 202);
+  color: #fff;
+  min-height: 69px;
+  padding: 10px 5px;
+  border-bottom: 2px solid #cc3535;
+  box-shadow: 0px -1px 50px 5px #0067cf inset;
+  text-align: center;
+}
+
+/** menu bar css **/
+.navbar {
+  background-color: #c6e2ff;
+  border: 2px solid #b9d3ee;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul {
+  padding-left: 0;
+  margin: 0;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0;
+}
+.navbar li a {
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbar .separator {
+  border-right: 1px solid #f8f8ff;
+  padding: 0 4px;
+}
+.navbar .separator_end {
+  padding: 0 4px;
+}
+/** end menu bar css **/
+
+.bg-purple {background-color: #8470ff !important}
+.bg-pink {background-color: #FFB5C5 !important}
+
+.border_orange {border-left: 4px solid #F39C11}
+.border_blue {border-left: 4px solid #3598DC}
+.border_green {border-left: 4px solid #35DC98}
+.border_white {border-left: 4px solid #DCDCDC}
+.border_red {border-left: 4px solid #FF0000}
+
+.text-red {color: #ff0000 !important}
+.text-blue {color: #0000ff !important}
+.text-green {color: #008000 !important}
+.text-yellow {color: #ffff00 !important}
+.text-purple {color: #800080 !important}
+.text-navy {color: #000080 !important}
+.text-olive {color: #808000 !important}
+.text-maroon {color: #800000 !important}
+
+.top {vertical-align: top !important}
+.bottom {vertical-align: bottom !important}
+.left {vertical-align: left !important}
+.right {vertical-align: right !important}
